@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-weight: bold;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap');
+}
+.header{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header__container-info{
+    margin: auto;
+    width: 1107px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__container{
+    background-color: #282828; 
+    display: flex;
+    
+}
+.header__container-left ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.header__container-left a{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.header__container-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.header__container-right ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.header__container-right{
+    align-items: center;
+    display: flex;
+    
+}
+.header__background{
+    background: url(../nike/images/Header.png);
+    height: 635px;
+    max-width: 1600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.header__container-middle{
+    
+    
+    max-width: 663px;
+    
+    font-weight: 400;
+    font-family: Prosto One;
+    font-size: 46px;
+    color: white;
+    
+    
+    
+}
+.header__container-middle button{
+    width: 200px;
+    height: 50px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    font-family:Montserrat;
+    font-weight: 500;
+    margin: auto;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.header__container-middle button:hover{
+    color: white;
+    background-color: black;
+}
+.main{
+    max-width: 1600px;
+    margin: auto;
+    background-color: rgb(20, 20, 20);
+}
+.section1{
+    color: white;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    margin: auto;
+    font-family:Montserat;
+    font-weight: 500;
+    font-size: 22px;
+    gap: 30px;
+}
+.section2{
+    color: white;
+    display: flex;
+    max-width: 990px;
+    align-items: center;
+    margin: auto;
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    gap: 30px;
+}
+.section3{
+    color: white;
+    display: flex;
+    max-width: 1112px;
+    align-items: center;
+    margin: auto;
+    font-family:Montserrat;
+    font-size: 20px;
+    gap: 30px;
+}
+.end{
+    text-align: right;
+    font-size: 20px;
+    align-self: center;
+}
+.cards{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 79px;
+    text-align: center;
+    padding-bottom: 55px;
+    
+}
+.cards button{
+    width: 161px;
+    height: 34px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: black;
+    
+}
+
+
+.cards button a{
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.cards h2{
+    margin-bottom: 10px;
+}
+.cards p{
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.card1{
+    
+    padding-top: 15px;
+    width: 255px;
+    height: 312px;
+    background-color: white;
+    font-family: Montserrat;
+    border-radius: 6px;
+}
+.card2{
+    padding-top: 15px;
+    width: 255px;
+    height: 312px;
+    background-color: white;
+    font-family: Montserrat;
+    border-radius: 6px;
+}
+.card3{
+    padding-top: 15px;
+    width: 255px;
+    height: 312px;
+    background-color: white;
+    font-family: Montserrat;
+    border-radius: 6px;
+}
+.card4{
+    padding-top: 15px;
+    width: 255px;
+    height: 312px;
+    background-color: white;
+    font-family: Montserrat;
+    border-radius: 6px;
+}
+.footer{
+    max-width: 1600px;
+    background-color: #282828;
+    margin: auto;
+    height: 215px;
+}
+.footer__container{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 215px;
+    
+    
+}
+.footer__container ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.footer__container a{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    
+}
